@@ -1,0 +1,29 @@
+<?php
+   		$submit = $_POST['submit'];
+   		$_house_Id = $_POST['house_Id'];
+   		$status = $_POST['status'];
+   		$type = $_POST['type'];
+
+   		if($submit == "เพิ่มกุฏินี้") {
+	   		$query = "INSERT INTO house VALUES('$_house_Id', '$status', '$type', '1')";
+	   		if(mysql_query($query)) {
+	   			echo "<script>alert(\"บันทึกข้อมูลเรียบร้อยเรียบร้อย\")</script>";
+	   			echo "<script>window.location = 'manage_house.php'</script>";
+	   		}
+   		} else if ($submit == "ดูรายการนี้") {
+   			$_count = $_POST['_count'];
+   			if($_count == 0) {
+   				echo "<script>alert(\"ขออภัย!! รายการนี้ไม่มีการจอง\")</script>";
+	   			echo "<script>window.location = 'manage_house.php'</script>";
+   			} else {
+   				echo "<script>window.location = 'manage_house.php?r_id=$_house_Id'</script>";
+   			}
+
+   		} else if($_GET['submit'] == "ยกเลิกการจอง") {
+   			$query_delete = "DELETE FROM house WHERE house_Id = '$_house_Id'";
+   			if(mysql_query($query_delete)) {
+   				echo "<script>alert(\"ลบข้อข้อมูลของกุฏิหมายเลข $_house_Id สำเร็จ\")</script>";
+	   			echo "<script>window.location = 'manage_house.php'</script>";
+   			}
+   		}
+   ?>

@@ -1,0 +1,183 @@
+#manage_reserve {
+	width: 100%;
+	margin: 5px auto;
+	margin-left: 10px;
+}
+
+#manage_reserve .add_new {
+	background-color: #fff;
+	padding: 5px;
+	border-top-right-radius: 10px;
+	box-shadow: 0px 3px 5px #9C9898;
+}
+
+
+
+/*#####################*/
+/*		ADD NEW		   */	
+/*#####################*/
+.manage_class {
+	width: 25%;
+	float: left;
+}
+
+#manage_reserve .add_new_name  {
+	background-color: #317589;
+	width	: 200px;
+	padding	: 3px;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 50px;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+#manage_reserve .add_new table {
+	width: 95%;
+	margin: 0px auto;
+	padding: 0px;
+	box-shadow: none;
+	border:none;
+	font-size: 0.8em;
+	font-style: CSChatThai;
+	color: #5A5A63;
+}
+
+#manage_reserve input[type="text"] {
+	width: 95%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#manage_reserve input[type="date"] {
+	width: 95%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#manage_reserve input[type="button"] {
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 0px auto;
+}
+
+
+
+/*#####################*/
+/*		ADD NEW		   */	
+/*#####################*/
+
+#manage_reserve .manage_content {
+	width: 73%;
+	float: left;
+	margin-left: 1%;
+}
+
+#manage_reserve .manage_content .centent_name {
+	background-color: #317589;
+	width	: 200px;
+	padding	: 3px;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 50px;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+#manage_reserve .manage_content .centent_name_2 {
+	background-color: #8FBB94;
+	width	: 200px;
+	padding	: 3px;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 50px;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+	margin-top: 15px;
+}
+
+#manage_reserve .manage_content .content_html {
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 3px;
+}
+
+#manage_reserve .manage_content .content_html table {
+	border:none;
+	box-shadow: none;
+}
+
+#manage_reserve .manage_class .add_new   select {
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+
+/********************************/
+/*		Manage class search		*/
+/********************************/
+
+#manage_reserve .manage_content .content_html .search_content {
+	padding: 5px;
+	text-align: center;
+}
+
+#manage_reserve .manage_content .content_html .search_content input[type="text"] {
+	width:	95%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	background-color: #E0F7EC;
+}
+
+#manage_reserve .manage_content .content_html .search_content input[type="button"] {
+	width:	97%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border:none;
+	background-color: #89C4F4;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+/********************************/
+/*		Manage class search		*/
+/********************************/
+
+#manage_reserve .manage_content .content_html .content_show {
+	font-size: 0.85em;
+}
+
+#manage_reserve .manage_content .content_html .content_show table tr td {
+	border:none;
+	margin: 0px;
+	margin:0px;
+	padding: 0px;
+}
+
+#manage_reserve .manage_content .content_html .content_show table tr td  input[type="text"] {
+	border:none;
+	margin: 0px;
+	width: 120px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 0.85em;
+}
+
+#manage_reserve .manage_content .content_html .content_show table tr td input[type="date"] {
+	border:none;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 0.85em;
+}
+
+#manage_reserve .manage_content .content_html .content_show table tr td select {
+	border:none;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 0.85em;
+}

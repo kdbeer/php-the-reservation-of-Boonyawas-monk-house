@@ -1,0 +1,467 @@
+body {
+	background-color: #E1E3E4;
+	padding: 0px;
+	margin: 0px;
+	font-family: prakatFd;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.header {
+	height: 60px;
+	background-color: #455A64;
+	box-shadow: 0px 1px 3px #5A5757;
+	color: #fff;
+	width: 100%;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+/*Image */
+
+
+
+
+/* Middle menu */
+
+.header .left {
+	float: left;
+	width: 25%;
+	margin-left: 0px;
+	text-align: left;
+}
+.imgg::after { 
+    content: url('menu.png');
+    position: absolute;
+
+}
+
+.header .menu_left ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.header .menu_left li {
+	display: inline;
+}
+
+.header .name {
+	padding-right: 15px;
+	border-right : 1px solid #ccc;
+	padding-left: 40px;
+}
+
+
+/*right header*/
+
+.header .right {
+	float: right;
+	width: 30%;
+	text-align: right;
+	margin-right : 10px;
+}
+
+.header .menu_right ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.bell {
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 25px;
+	width: 16px;
+	height: 16px;
+	margin-top: -15px;
+}
+
+.header .menu_right li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.right .menu_right ul li .bell {
+	background-color: #fff;
+}
+
+.sign_box {
+	font-size: 13px;
+	padding: 5px;
+	border-radius: 5px;
+	background : -webkit-linear-gradient(top,#52B4CC,#4683ea);
+	border : 1px solid #4285f4;
+	font-weight : bold;
+	outline : bold;
+}
+
+.sign_out_box {
+	font-size: 13px;
+	padding: 3px;
+	border-radius: 5px;
+	background-color: #F3C211;
+	border : 1px solid #F3C211;
+	font-weight : bold;
+	outline : bold;
+}
+
+.head_clear {
+	width: 100%;
+	clear: both;
+	padding-top: 1px;
+}
+
+/* show_menu */
+.container_box {
+	width: 100%;
+	height: auto;
+	color: #000;
+	padding-bottom: 15px;
+}
+
+.container_box .show_menu {
+	width: 240px;
+	height: 100vh;
+	border-top-right-radius: 5px;
+	padding-left: 15px;
+	padding-top: 20px;
+	color: rgb(135, 135, 135);
+	border-right : 1px solid #dcdada;
+	float: left;
+	background-image: url('bg-menu.png');
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+.show_menu ul {
+	margin-left: -50px;
+	width: 70%;
+
+}
+
+.show_menu ul li {
+	list-style-type: none;
+	display: block;
+	position: relative;
+	padding: 7px;
+	padding-left: 75px;
+	width: 100%;
+	font-size: 14px;
+	opacity: 0.85;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.show_menu ul li:hover {
+	background-color: #ebebeb;
+	color: #000;
+	transition: 0.25s;
+}
+
+.show_menu ul li a {
+	color: #595959;
+}
+
+/*#################################*/
+/*>>>> set image for list user <<<<*/
+/*#################################*/
+.list_reserve::before { 
+    content: url('img/calendar.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+.list_view::before { 
+    content: url('img/navigation.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+.list_history::before { 
+    content: url('img/verification.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+.list_profile::before { 
+    content: url('img/profile.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+.list_about::before { 
+    content: url('img/wat.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+.list_contact::before { 
+    content: url('img/news.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+/*#################################*/
+/*>>>>>>>>>>   ADMIN <<<<<<<<<<<<<<*/
+/*#################################*/
+.admin_set_person::before { 
+    content: url('img/user.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+.admin_set_house::before { 
+    content: url('img/house.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+.admin_set_reserve::before { 
+    content: url('img/verification.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+.admin_view_report::before { 
+    content: url('img/report.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+.admin_enable::before { 
+    content: url('img/tool.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+/*##################################*/
+/*>>>>>> Unregister people <<<<<<<<<*/
+/*##################################*/
+.unregis_interest::before { 
+    content: url('img/star.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+.unregis_view::before { 
+    content: url('img/navigation.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+.unregis_register::before { 
+    content: url('img/account.png');
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+/*####################################
+##########Show Content################
+#####################################*/
+.container_box .show_content {
+	float: left;
+	width: 70%;
+	border-radius: 8px;
+	margin: 10px auto;
+	margin-left: 25px%;
+	height: auto;
+}
+
+
+/*##################################*/
+
+
+@media only screen and (min-width : 1350px) and (max-width : 5000px) {
+	
+	.header .button {
+		margin-left: 15px;
+	}
+	.header .name {
+		width :20%;
+		padding-left: 35px;
+		border-right : none;
+
+	}
+
+	.header .title {
+		visibility: hidden;
+		width: 0px;
+	}
+
+	.header .right {
+		float: right;
+		width: 60%;
+		text-align: right;
+		margin-right : 5px;
+	}
+
+	.header .menu_right li {
+		display: inline;
+		margin-right : 5px;
+	}
+
+	.container_box {
+		visibility: visible;
+	}
+
+	.container_box .show_content {
+		float: left;
+		width: 74%;
+		margin-left: 2%;
+	}
+}
+@media only screen and (min-width : 1200px) and (max-width : 1349px) {
+	
+	.header .button {
+		margin-left: 15px;
+	}
+	.header .name {
+		width :20%;
+		padding-left: 35px;
+		border-right : none;
+
+	}
+
+	.header .title {
+		visibility: hidden;
+		width: 0px;
+	}
+
+	.header .right {
+		float: right;
+		width: 60%;
+		text-align: right;
+		margin-right : 5px;
+	}
+
+	.header .menu_right li {
+		display: inline;
+		margin-right : 5px;
+	}
+
+	.container_box {
+		visibility: visible;
+	}
+
+	.container_box .show_content {
+		float: left;
+		width: 66%;
+	}	
+}
+@media only screen and (min-width : 1024px) and (max-width : 1190px) {
+	
+	.header .button {
+		margin-left: 15px;
+	}
+	.header .name {
+		width :20%;
+		padding-left: 35px;
+		border-right : none;
+	}
+	.header .title {
+		visibility: hidden;
+		width: 0px;
+	}
+	.header .right {
+		float: right;
+		width: 60%;
+		text-align: right;
+		margin-right : 5px;
+	}
+	.header .menu_right li {
+		display: inline;
+		margin-right : 5px;
+	}
+	.container_box {
+		visibility: visible;
+	}
+	.container_box .show_content {
+		float: left;
+		width: 66%;
+	}	
+}
+
+@media only screen and (min-width : 800px) and (max-width : 1023px) {
+	.header .button {
+		margin-left: 15px;
+	}
+	.header .name {
+		width :20%;
+		padding-left: 35px;
+		border-right : none;
+	}
+
+	.header .right {
+		float: right;
+		width: 60%;
+		text-align: right;
+		margin-right : 5px;
+	}
+
+	.header .menu_right li {
+		display: inline;
+		margin-right : 5px;
+	}
+
+	.container_box {
+		visibility: visible;
+	}
+
+	.container_box .show_content {
+		float: left;
+		width: 58%;
+	}	
+}
+
+@media only screen and (min-width : 150px) and (max-width : 800px) {
+
+
+	.header .button {
+		margin-left: 10px;
+	}
+	.header .name {
+		width :20%;
+		padding-left: 35px;
+		border-right : none;
+	}
+
+	.header .right {
+		float: right;
+		width: 60%;
+		text-align: right;
+		margin-right : 5px;
+	}
+
+	.header .menu_left {
+		padding-right: 5px;
+		padding-left: 20px;
+	}
+
+	.header .menu_right li {
+		display: inline;
+		padding-right: 10px;
+	}
+
+	.container_box {
+		visibility: visible;
+	}
+
+	.show_menu {
+		margin-left : -370px;
+	}
+
+	.container_box .show_content {
+		float: left;
+		width: 85%;
+	}	
+}

@@ -1,0 +1,348 @@
+.get_reservelist_wrapper {
+	width: 100%;
+	background-color: #000;
+	font-family: prakatFd;
+	font-size: 0.9em;
+}
+
+.get_reservelist_wrapper .left_side {
+	width: 35%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	height: 100vh;
+}
+
+.get_reservelist_wrapper .left_side .descript_txt {
+	text-align: center;
+	margin-top: 10px;
+	font-size: .75em;
+}
+
+.descript_txt i {
+	color: red;
+	text-decoration: double;
+}
+
+
+.get_reservelist_wrapper .left_side .calendar {
+	width: 100%;
+	margin: 0px auto;
+	box-shadow: 0px 4px 8px #ccc;
+	font-family: prakatBold;
+	font-size: 20px;
+}
+
+.calendar .calendar_header {
+	width: 100%;
+	height: 80px;
+	background-color: #5CD8CF;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+
+.calendar_header .left_arrow {
+	width: 15%;
+	float: left;
+	padding-top: 30px;
+	height: 50px;
+}
+
+.calendar_header .left_arrow:hover {
+	background-color: #176963;
+	transition:0.2s;
+	cursor: pointer;
+}
+
+.calendar_header .show_date {
+	width: 70%;
+	float: left;
+	text-align: center;
+	margin-top: 28px;
+	color : #fefefe;
+
+}
+
+.calendar_header .right_arrow {
+	width: 15%;
+	float: left;
+	padding-top: 30px;
+	padding-top: 30px;
+	height: 50px;
+}
+
+.calendar_header .right_arrow:hover {
+	background-color: #176963;
+	transition:0.2s;
+	cursor: pointer
+}
+
+/*###########################*/
+/*#########right side########*/
+/*###########################*/
+.reserve_navigation {
+	padding: 0px;
+	width: 94%;
+	margin: 0px auto;
+}
+.reserve_navigation .navigation {
+	display: block;
+    position: relative;
+    margin-left: -10px
+} 
+.reserve_navigation .navigation ul {
+	margin-left: 25px;
+}
+
+.reserve_navigation .navigation li {
+	display: inline-block;
+    position: relative;
+    padding: 7px 45px 7px 5px;
+    background-color: #7FA7A4;
+    margin-left: -20px;
+    border: 1px solid rgba(210, 209, 209, 0.15);
+    border-collapse: collapse;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+    color: #657a82;
+    cursor: pointer;
+} 
+
+.reserve_navigation .navigation .c_in_date {
+	background-color: #9AC7C4;
+	z-index: 5;
+}
+
+.reserve_navigation .navigation .c_out_date {
+	padding-left: 25px;
+	background-color: #ACD8D5;
+	z-index: 4;
+	visibility: hidden;
+}
+
+
+
+
+
+/*###########################*/
+/*#########right side########*/
+/*###########################*/
+
+.get_reservelist_wrapper .right_side {
+	width: 60%;
+	height: 100vh;
+	float: left;
+	margin: 0px auto;
+}
+
+/*###########################*/
+/* Making card on right side */
+/*###########################*/
+
+.get_reservelist_wrapper .right_side .card {
+	width: 93%;
+	height: auto;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.right_side .card .cards {
+	width: 90%;
+	height: auto;
+	background-color: #F5F5F5;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 5px #DCDCDC;
+	transition:0.3s;
+}
+
+.card .header_calendar {
+	width: 90%;
+	margin: 0px auto;
+	background-color: #F17062;
+	padding: 8px 0px 2px 10px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+.right_side .card .cards .left {
+	width: 35%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #DCDCDC;
+	color: rgb(100, 100, 100);
+	font-size: 0.9em;
+	color: rgb(135, 135, 135);
+}
+
+.card .cards .left .frame {
+	padding: 3px 6px 3px 6px;
+	background-color: #F5F5F5;
+	width: 50%;
+	margin: 0px auto;
+	box-shadow: 0px 0px 5px #DCDCDC;
+	margin-bottom: 5px;
+}
+
+.cards .left  .house_id, .cards .left  .reserve_id {
+	font-size: 0.8em;
+}
+
+.card .cards .left img {
+	width: 100%;
+	height: auto;
+	border-radius: 60px;
+	box-shadow: 0px 1px 3px #ccc;
+}
+
+.right_side .card .cards .right {
+	width: 60%;
+	float: left;
+	font-size: 0.75em;
+}
+
+.right_side .card .cards .clear {
+	clear: both;
+}
+
+.right_side .card .cards table {
+	padding: 15px;
+	width: 85%;
+	margin: 0px auto;
+	color: rgb(135, 135, 135);
+}
+
+.card .cards table .tag {
+	font-weight: bold;
+	font-size: 0.1;
+}
+
+td {
+	padding: 2px;
+}
+
+.card .cards table .dates {
+	color: orange;
+	font-family: prakatFdBold;
+}
+
+.make_menu {
+	padding-top: 15px;
+}
+
+.history_container {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 7px #ccc;
+}
+
+.get_reservelist_wrapper .header_name {
+	width: 98%;
+	margin: 0px auto;
+	background-color: #7FA7A4;
+	color: #fff;
+	padding: 7px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	margin-bottom: 17px;
+	box-shadow: 0px 1px 3px #ccc;
+}
+
+.history_container .header_name {
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 5px;
+	color: #7FA7A4;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.history_container table {
+	width: 95%;
+	margin-top: 10px;
+   	border: 1px solid black;
+   	padding: 0px;
+   	border-collapse: collapse;
+   	border:none;
+   	border: 1px solid #ccc;
+}
+
+
+
+.table_head td {
+	padding: 7px;
+	background-color: #54716F;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table .odd {
+	background-color: #E6F5F3;
+	border-collapse: collapse;
+}
+
+table .odd td {
+	border-collapse: collapse;
+	padding: 7px;
+	font-size: .8em;
+	color: #000;
+
+}
+
+table .even {
+	background-color: #B6D2CE;
+	border-collapse: collapse;
+	font-size: .8em;
+	color: #000;
+}
+
+table .even td {
+	border-collapse: collapse;
+	padding: 7px;
+}
+
+
+/*******************************/
+/*	Left side of getting data  */ 
+/*******************************/
+
+.left_side .left_container {
+	width: 78%;
+	margin: -10px auto;
+	background-color: #fff;
+	padding: 15px;
+	box-shadow: 0px 1px 3px #ccc;
+	text-align: left;
+	border-radius: 10px;
+}
+
+.left_side .left_container .history_table {
+	width: 100%;
+	border:none;
+	box-shadow: none;
+	padding: 0px;
+	padding-left: 5%;
+	font-size: .9em;
+}
+
+.left_side .left_container .history_table tr {
+	padding: 0px;
+}
+
+.left_side .left_container .history_table td {
+	border:none;
+	box-shadow: none;
+	padding: 0px;
+}
+
+.left_side .left_head_name {
+	color: #54716F;
+	font-weight: bold;
+}

@@ -1,0 +1,147 @@
+.wrapper_house_manage {
+	clear: both;
+	width: 100%;
+	margin: 0px auto;
+
+}
+
+.wrapper_house_manage .header_edit {
+    width: 100%;
+    background-color: #71A575;
+    margin: 0px auto;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 7px #9C9898;
+    font-size: 1.25em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.wrapper_house_manage .add_new_house {
+	background-color: #fff;
+	margin: 5px auto;
+	color: #000;
+	text-align: left;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px #9C9898;
+	width: 25%;
+	float: left;
+	font-size: 0.85em;
+	text-align: center;
+	padding-top: 5px;
+	padding: 7px;
+	margin-right: 10px;
+}
+
+.wrapper_house_manage .add_new_house form {
+	border: none;
+	margin:0px;
+
+}
+
+.wrapper_house_manage .add_new_house table {
+	box-shadow: none;
+	width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.wrapper_house_manage .edit_house {
+	width: 70%;
+	background-color: #fff;
+	margin-top: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px #9C9898;
+	float: left;
+	font-size: 0.85em;
+}
+
+.wrapper_house_manage .edit_house table {
+	width: 100%;
+	margin: 0px auto;
+	border:none;
+	box-shadow: none;
+	border-collapse: collapse;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.wrapper_house_manage .edit_house .house_db_table {
+	background-color: #96BCCE;
+	padding: 5px 0px 5px 0px;
+}
+
+.wrapper_house_manage .edit_house .house_db_table td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.wrapper_house_manage .edit_house table tr {
+	padding: 0px;
+	border:none;
+}
+
+.wrapper_house_manage .edit_house table td {
+	padding: 0px;
+	border:none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.wrapper_house_manage .edit_house table td .on::before {
+	content:url('img/on.png');
+	vertical-align: center;
+}
+
+.wrapper_house_manage .edit_house table td .off::before {
+	content:url('img/off.png');
+	vertical-align: center;
+}
+
+.wrapper_house_manage .edit_house table td .cancel::before {
+	content:url('img/cancel.png');
+	vertical-align: center;
+}
+
+
+@media only screen and (min-width : 150px) and (max-width : 800px) {
+	body {
+		width: 100%;
+	}
+
+	.wrapper_house_manage .header_edit {
+		width: 106%;
+	}
+
+	.show_content .wrapper_house_manage {
+		width: 110%;
+		margin: 0px auto;
+	}
+
+	.wrapper_house_manage .edit_house {
+		width: 100%;
+		clear: both;
+	}
+
+	.wrapper_house_manage .edit_house .name {
+		width: 100px;
+	}
+
+	.wrapper_house_manage .edit_house .type {
+		width: 100px;
+	}
+
+	.wrapper_house_manage .add_new_house {
+		width: 100%;
+		margin: 5px auto;
+	}
+
+	.wrapper_house_manage .search .header_search {
+		padding-left: 5px;
+	}
+
+}
+
+

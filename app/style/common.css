@@ -1,0 +1,33 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #fff;
+}
+
+@font-face {
+    font-family: CSChatThai;
+    src: url(font/CSChatThai.ttf);
+}
+
+@font-face {
+    font-family: prakat;
+    src: url(font/CS_PraKas/CSPraKas.otf);
+}
+
+@font-face {
+    font-family: prakatBold;
+    src: url(font/CS_PraKas/CSPraKasBold.otf);
+}
+
+@font-face {
+    font-family: prakatFd;
+    src: url(font/CS_PraKas/CSPraKasFD.otf);
+}
+
+@font-face {
+    font-family: prakatFdBold;
+    src: url(font/CS_PraKas/CSPraKasFDBold.otf);
+}
+
+
+

@@ -1,0 +1,99 @@
+.get_reservelist_wrapper {
+	background-color: transparent;
+	color: #959796;
+}
+
+.reserve_list_container {
+	width: 95%;
+	margin: 0px auto;
+}
+
+.reserve_list_container .clear {
+	clear: both;
+}
+
+
+.get_reservelist_wrapper .right_side .reserve_menu {
+	width: 100%;
+	margin: 10px auto;
+	background-color: #fff;
+	height: auto;
+	padding: 15px;
+	border-radius: 5px;
+	margin-left: 5px;
+	box-shadow: 0px 1px 5px #ccc;
+}
+
+.get_reservelist_wrapper .right_side .reserve_menu .make_menu {
+	background-color: transparent;
+	height: auto; 
+	width: 90%;
+	margin: 0px auto;
+}
+
+body {
+	height: auto;
+	position: relative;
+}
+
+
+
+.reserve_cal_header {
+	width: 95%;
+	clear: both;padding: 10px;
+	position: relative;
+	background: #fff;
+	margin: 0px auto;
+}
+
+.renderForm {
+	background-color: #F7F7F7;
+	width: 80%;
+	margin: 10px auto;
+	padding: 10px;
+	transition : 0.25s;
+	box-shadow: 0px 4px 8px #ccc;
+}
+
+form {
+	margin-top: 10px;
+	margin-left: 10%;
+}
+
+.renderForm .show_cal_class {
+	width: 85%;
+}
+
+.renderForm .show_time_class {
+	width: 87%;
+	margin-bottom: 10px;
+}
+
+button {
+	margin-top : 10px; 
+}
+
+@keyframes animatetop {
+    from {	margin-top: 0px;}
+    to {	margin-top: 6px;}
+}
+
+.renderForm .date_txt {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	background-color: transparent;
+	font-weight: lighter;
+	color: #000;
+	cursor: pointer;
+}
+
+.renderForm .date_txt:hover, .renderForm .date_txt:active {
+	border-bottom: 1px solid #ccc;
+	position:relative;
+	-webkit-animation-name:animatetop;
+	-webkit-animation-duration:1s;
+	animation-name:animatetop;
+	animation-duration:1s;
+	font-style: bold;
+	color: steelblue;
+}
